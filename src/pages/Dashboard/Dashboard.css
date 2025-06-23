@@ -1,0 +1,48 @@
+/* src/pages/Dashboard.css */
+
+.dashboard-container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.dashboard-title {
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.dashboard-card {
+  border: none;
+  border-radius: 16px;
+  background-color: #fff;
+  padding: 1.5rem 1rem;
+  transition: transform 0.2s ease;
+}
+
+.dashboard-card:hover {
+  transform: scale(1.02);
+}
+
+.icon-box {
+  width: 60px;
+  height: 60px;
+  background-color: #757ff2;
+  color: white;
+  border-radius: 12px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem;
+}
+
+.stat-count {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.stat-title {
+  font-size: 0.95rem;
+  color: #555;
+}

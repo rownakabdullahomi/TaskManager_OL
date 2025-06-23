@@ -1,0 +1,37 @@
+
+.create-task-container {
+  padding: 2rem;
+}
+
+.form-title {
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: #12263a;
+}
+
+.form-control,
+.form-select,
+textarea.form-control {
+  border-radius: 10px;
+  padding: 0.75rem 1rem;
+  font-size: 0.95rem;
+  border: 1px solid #d1cdcd;
+  box-shadow: none;
+}
+
+textarea.form-control {
+  resize: none;
+}
+
+.create-btn {
+  background-color: #757ff2;
+  border: none;
+  padding: 0.6rem 2.5rem;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.create-btn:hover {
+  background-color: #5f6ee0;
+}

@@ -1,0 +1,31 @@
+
+.all-task-container {
+  padding: 1rem 2rem;
+}
+
+.task-table th,
+.task-table td {
+  vertical-align: middle;
+  font-size: 0.95rem;
+}
+
+.task-table td {
+  color: #333;
+}
+
+.pagination-footer {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85rem;
+}
+
+.pagination-controls button {
+  border-radius: 6px;
+}
+
+.pagination-controls span {
+  font-weight: bold;
+  font-size: 1rem;
+}

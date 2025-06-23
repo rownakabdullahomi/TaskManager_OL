@@ -1,0 +1,51 @@
+
+.sidebar {
+  width: 240px;
+  height: 100vh;
+  background-color: #f5f6fa;
+  padding: 2rem 1rem;
+  border-right: 1px solid #eaeaea;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.avatar-circle {
+  width: 40px;
+  height: 40px;
+  background-color: #757ff2;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.brand-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #5a5a5a;
+}
+
+
+.sidebar-link {
+  display: block;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.sidebar-link:hover {
+  background-color: #e1e5f9;
+  color: #000;
+}
+
+.sidebar-link.active {
+  background-color: #dbe1fc;
+  color: #4b4df2;
+  font-weight: 600;
+}
