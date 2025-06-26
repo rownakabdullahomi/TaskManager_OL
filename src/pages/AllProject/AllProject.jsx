@@ -1,5 +1,5 @@
 import { Button, Container, Table } from "react-bootstrap";
-import "../AllTask/AllTask.css";
+// import "../AllTask/AllTask.css";
 
 const tasks = [
   {

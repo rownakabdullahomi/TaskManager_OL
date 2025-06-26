@@ -1,7 +1,7 @@
-// src/components/Sidebar/Sidebar.jsx
+
 import { Nav } from "react-bootstrap";
 import { Link, useLocation } from "react-router-dom";
-import "./Sidebar.css";
+// import "./Sidebar.css";
 
 const Sidebar = ({ isOpen, closeSidebar }) => {
   const location = useLocation();
